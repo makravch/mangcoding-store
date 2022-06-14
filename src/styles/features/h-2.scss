@@ -1,0 +1,14 @@
+.h-2 {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+
+	&_white {
+		color: #fff;
+	}
+
+	&_center {
+		text-align: center;
+	}
+}

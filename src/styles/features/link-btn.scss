@@ -1,0 +1,79 @@
+.link-btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 13px;
+	min-width: 170px;
+	border-radius: 10px;
+	text-align: center;
+	transition: all 0.2s linear;
+
+	&__text {
+		font-family: "Inter";
+		color: #000;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 22px;
+		vertical-align: middle;
+	}
+
+	&_margin {
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	&_margin:last-child {
+		margin-right: 0px;
+	}
+
+	&_purple {
+		background-color: #545BE8;
+	}
+
+	&_purple:hover {
+		background-color: #2832e0;
+	}
+
+	&_purple &__text {
+		color: #fff;
+	}
+
+	&_white {
+		background-color: #fff;
+		border: 1px solid #545BE8;
+	}
+
+	&_white &__text {
+		color: #545BE8;
+	}
+
+	&_white:hover {
+		background-color: #545BE8;
+	}
+
+	&_white:hover &__text {
+		color: #fff;
+	}
+
+	&_transparent {
+	  @media (max-width: 768px) {
+	  	background-color: #fff;
+	  }
+	}
+
+	&_transparent:hover {
+		background-color: #fff;
+	}
+
+	&_video {
+		padding: 8px 13px;
+	}
+
+	&_video:before {
+		content: url("./../assets/images/play-icon.png");
+		display: inline-block;
+		width: 33px;
+		height: 32px;
+		vertical-align: middle;
+		margin-right: 10px;
+	}
+}

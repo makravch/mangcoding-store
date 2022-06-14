@@ -1,0 +1,14 @@
+.lists-wrap {
+	display: flex;
+	gap: 80px;
+
+  @media (max-width: 950px) {
+  	gap: 50px;
+  	justify-content: space-between;
+  	flex-wrap: wrap;
+  }
+
+  @media (max-width: 345px) {
+  	justify-content: flex-start;
+  }
+}

@@ -1,0 +1,19 @@
+.links-list {
+	list-style: none;
+
+	&__item {
+		margin-bottom: 10px;
+	}
+
+	&__link {
+		font-family: 'Poppins';
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 21px;
+		color: #F4F4F4;
+	}
+
+	&__link:hover {
+		text-decoration: underline;
+	}
+}

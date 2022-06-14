@@ -1,0 +1,29 @@
+{
+  "name": "mangcoding-store",
+  "description": "practice project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "version": "1.0.0",
+  "repository": "https://github.com/makravch/mangcoding-store",
+  "author": "makravch <makravch@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
