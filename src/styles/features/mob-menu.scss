@@ -20,6 +20,7 @@
     height: 100%;
     width: 70%;
     background-color: #fff;
+    overflow-y: auto;
     transition: all 0.2s linear;
 
     @media (max-width: 767px) {

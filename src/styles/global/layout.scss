@@ -1,23 +1,23 @@
 .main {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .wrapper_grey {
-	background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 
 .wrapper_blue-gradient {
-	background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
+  background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
 }
 
 .container {
-	max-width: 1170px;
-	padding: 0 15px;
-	margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section_promo {
-	padding: 100px 0px;
+  padding: 100px 0px;
 
   @media (max-width: 767px) {
     padding: 50px 0px;
@@ -25,7 +25,7 @@
 }
 
 .section_features{
-	padding: 80px 0px;
+  padding: 80px 0px;
 
   @media (max-width: 767px) {
     padding: 50px 0px;
@@ -33,7 +33,7 @@
 }
 
 .section_selected-course {
-	padding: 155px 0px;
+  padding: 155px 0px;
 
   @media (max-width: 767px) {
     padding: 50px 0px;
@@ -41,7 +41,7 @@
 }
 
 .section_available-courses {
-	padding: 80px 0px;
+  padding: 80px 0px;
 
   @media (max-width: 767px) {
     padding: 50px 0px;
@@ -49,7 +49,7 @@
 }
 
 .section_testimonials {
-	padding-bottom: 80px;
+  padding-bottom: 80px;
 
   @media (max-width: 767px) {
     padding: 50px 0px;

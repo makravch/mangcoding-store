@@ -1,19 +1,19 @@
 .nav-list {
-	list-style: none;
+  list-style: none;
 
-	&__item {
-		margin-bottom: 25px;
-	}
+  &__item {
+    margin-bottom: 25px;
+  }
 
-	&__item:last-child {
-		margin-bottom: 0px;
-	}
+  &__item:last-child {
+    margin-bottom: 0px;
+  }
 
-	&__link {
-		color: #000;
-		font-family: 'Poppins';
-		font-weight: 700;
-		font-size: 40px;
-		line-height: 1.2;
-	}
+  &__link {
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+  }
 }
