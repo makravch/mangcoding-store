@@ -6,12 +6,12 @@
   }
 
   &__item:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   &__link {
     color: #000;
-    font-family: 'Poppins';
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.2;

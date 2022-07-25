@@ -18,14 +18,14 @@
     padding: 40px;
     margin: 12px;
     background-color: #fff;
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 20px rgba(0 0 0 / 10%);
 
     @media (max-width: 767px) {
       width: auto;
     }
   }
 
-  &__card:after {
+  &__card::after {
     content: url("./../assets/images/corner-img.svg");
     position: absolute;
     top: 0;
@@ -42,7 +42,7 @@
   }
 
   &__user-name {
-    font-family: 'Poppins';
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
@@ -50,7 +50,7 @@
   }
 
   &__user-description {
-    font-family: 'Poppins';
+    font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -67,11 +67,11 @@
   }
 
   &__star:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   &__comment {
-    font-family: 'Poppins';
+    font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;

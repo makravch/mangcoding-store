@@ -1,8 +1,10 @@
-.list__title {
-  font-family: 'Poppins';
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: #fff;
-  margin-bottom: 25px;
+.list {
+  &__title {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 25px;
+  }
 }

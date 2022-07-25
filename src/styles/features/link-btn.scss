@@ -8,7 +8,7 @@
   transition: all 0.2s linear;
 
   &__text {
-    font-family: "Inter";
+    font-family: Inter, sans-serif;
     color: #000;
     font-weight: 700;
     font-size: 18px;
@@ -22,11 +22,11 @@
   }
 
   &_margin:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   &_purple {
-    background-color: #545BE8;
+    background-color: #545be8;
   }
 
   &_purple:hover {
@@ -39,15 +39,15 @@
 
   &_white {
     background-color: #fff;
-    border: 1px solid #545BE8;
+    border: 1px solid #545be8;
   }
 
   &_white &__text {
-    color: #545BE8;
+    color: #545be8;
   }
 
   &_white:hover {
-    background-color: #545BE8;
+    background-color: #545be8;
   }
 
   &_white:hover &__text {
@@ -68,7 +68,7 @@
     padding: 8px 13px;
   }
 
-  &_video:before {
+  &_video::before {
     content: url("./../assets/images/play-icon.png");
     display: inline-block;
     width: 33px;

@@ -2,12 +2,14 @@
   overflow: hidden;
 }
 
-.wrapper_grey {
-  background-color: #F5F5F5;
-}
+.wrapper {
+  &_grey {
+    background-color: #f5f5f5;
+  }
 
-.wrapper_blue-gradient {
-  background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
+  &_blue-gradient {
+    background: linear-gradient(180deg, #545be8 0%, #272db0 100%);
+  }
 }
 
 .container {
@@ -16,42 +18,44 @@
   margin: 0 auto;
 }
 
-.section_promo {
-  padding: 100px 0px;
+.section {
+  &_promo {
+    padding: 100px 0;
 
-  @media (max-width: 767px) {
-    padding: 50px 0px;
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
   }
-}
 
-.section_features{
-  padding: 80px 0px;
+  &_features {
+    padding: 80px 0;
 
-  @media (max-width: 767px) {
-    padding: 50px 0px;
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
   }
-}
 
-.section_selected-course {
-  padding: 155px 0px;
+  &_selected-course {
+    padding: 155px 0;
 
-  @media (max-width: 767px) {
-    padding: 50px 0px;
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
   }
-}
 
-.section_available-courses {
-  padding: 80px 0px;
+  &_available-courses {
+    padding: 80px 0;
 
-  @media (max-width: 767px) {
-    padding: 50px 0px;
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
   }
-}
 
-.section_testimonials {
-  padding-bottom: 80px;
+  &_testimonials {
+    padding-bottom: 80px;
 
-  @media (max-width: 767px) {
-    padding: 50px 0px;
+    @media (max-width: 767px) {
+      padding: 50px 0;
+    }
   }
 }

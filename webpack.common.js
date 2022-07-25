@@ -1,21 +1,15 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const StylelintPlugin = require('stylelint-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  mode: 'development',
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true
-  },
-  devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-    liveReload: true,
-    hot: false
   },
   module: {
     rules: [
@@ -40,13 +34,14 @@ module.exports = {
     ]
   },
   plugins: [
-  new HtmlWebpackPlugin({
-    title: 'Course landing page',
-    template: './index.html'
-  }),
-  new ESLintPlugin({
-    files: 'src/**/*.js',
-  }),
-  new MiniCssExtractPlugin()
-  ],
+    new ESLintPlugin({
+      files: 'src/**/*.js',
+    }),
+    new MiniCssExtractPlugin(),
+    new StylelintPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'Course landing page',
+      template: './index.html'
+    })
+  ]
 };

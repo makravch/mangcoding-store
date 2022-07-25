@@ -2,9 +2,9 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 23px 0px;
+  padding: 23px 0;
   background-color: #fff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0 0 0 / 10%);
 
   &__container {
     display: flex;
@@ -35,7 +35,7 @@
   }
 
   &__link-btn:last-child {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   &__toggle {
