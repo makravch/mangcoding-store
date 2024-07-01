@@ -12,3 +12,8 @@ yarn start
 ```bash
 yarn build
 ```
+
+Открывается на:
+```bash
+http://localhost:1234/
+```
